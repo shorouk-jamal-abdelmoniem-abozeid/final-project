@@ -1,0 +1,274 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+     font-size: 1.2rem; 
+  line-height: 1.8;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+nav {
+    background: linear-gradient(to right, #F2C3B2, #FCE9D3);
+}
+
+.navbar-nav .nav-link.active {
+  color: #ff4081 !important;
+  font-weight: bold;
+  border-bottom: 2px solid #ff4081;
+}
+
+
+.hero {
+    background-color: #f7f5f5;
+}
+
+
+.hirebtn, .aboutbtn {
+  background-color: #F6C2C6; 
+  color: #333;              
+  transition: all 0.3s ease-in-out; 
+}
+
+.hirebtn:hover, .aboutbtn:hover {
+  text-decoration: underline;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.3); 
+}
+
+.hero img , #about img {
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+  border-radius: 10px;
+  max-width: 350px;
+
+}
+
+#about p{
+    background-color: #EEE6E4;
+    transition: box-shadow 0.4s ease-in-out;
+}
+
+#about p:hover {
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3); 
+}
+
+
+
+#skills h2 span {
+  font-weight: 700;
+  color: #feb0b7;
+}
+
+
+#skills .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.progress {
+  height: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.progress-bar {
+  border-radius: 10px;
+}
+
+
+#projects .card-img-top {
+  height: 200px;      
+  object-fit: cover;   
+  border-radius: 8px;  
+}
+
+
+#projects {
+  background-color: #FCFAF2;
+  padding: 60px 0;
+}
+
+#projects h2 {
+  color: #D4A3C4;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+#projects .card {
+  border: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 12px;
+  overflow: hidden;
+}
+#projects .card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+#projects .card-img-top {
+  height: 200px;
+  object-fit: cover;      
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+#projects .card-img-top:hover {
+  transform: scale(1.05);
+  filter: brightness(1.1);
+}
+
+#projects .card-body {
+  padding: 20px;
+}
+#projects .card-title {
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 10px;
+}
+#projects .card-text {
+  font-size: 0.95rem;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.btn-custom {
+  background-color: #FFBFC5; 
+  color: #333;
+  border-radius: 25px;
+  padding: 8px 16px;
+  transition: all 0.3s ease-in-out;
+}
+.btn-custom:hover {
+  background-color: #EB8DB5;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+  text-decoration: underline;
+}
+
+.form {
+  background: #f9f9f9;
+  border-radius: 12px;
+  padding: 40px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+.form-control {
+  border-radius: 8px;
+  padding: 10px 12px;
+  transition: all 0.3s ease;
+}
+
+.form-control:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 8px rgba(0,123,255,0.3);
+}
+
+
+.error-text {
+  font-size: 0.85rem;
+  color: #dc3545;
+  font-weight: 500;
+}
+
+.form img {
+  max-width: 80%;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+  transition: transform 0.3s ease;
+}
+
+.form img:hover {
+  transform: scale(1.05);
+}
+
+#experience .card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#experience .card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+
+footer {
+  background: linear-gradient(135deg, #0d0d0d, #2f2f2f); /* خلفية Gradient */
+  color: #f1f1f1;
+  padding: 40px 0;
+}
+
+footer h5 {
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+footer p, 
+footer a {
+  color: #cccccc;
+  font-size: 0.95rem;
+  transition: color 0.3s ease;
+}
+
+
+footer .social-icons a {
+  font-size: 1.3rem;
+  margin-right: 15px;
+  color: #f1f1f1;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+footer .social-icons a:hover .fa-facebook {
+  color: #1877f2; 
+  transform: scale(1.2);
+}
+
+footer .social-icons a:hover .fa-instagram {
+  color: #e1306c; 
+  transform: scale(1.2);
+}
+
+
+
+
+footer .text-center small {
+  color: #aaaaaa;
+  font-size: 0.85rem;
+}
+
+footer ul li a {
+  position: relative;
+  display: inline-block;
+  transition: color 0.3s ease;
+}
+
+footer ul li a:hover {
+  color: #00bfff; 
+}
+
+footer ul li a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  width: 0;
+  height: 2px;
+  background-color: #00bfff;
+  transition: width 0.3s ease;
+}
+
+footer ul li a:hover::after {
+  width: 100%;
+}
+
+#backToTop {
+  display: none; 
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99;
+  background-color: #FFBFC5;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+#backToTop:hover {
+  transform: scale(1.1);
+  background-color: #0d6efd; 
+  box-shadow: 0 6px 15px rgba(0,0,0,0.3);
+}
